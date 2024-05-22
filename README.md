@@ -1,2 +1,2 @@
 # ProjectUAS
-Tugas UAS Praktikum UAS
+Tugas UAS Praktikum MDS

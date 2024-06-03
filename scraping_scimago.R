@@ -15,7 +15,7 @@ library(tidyverse)
 library(mongolite)
 
 message('Scraping Data')
-url <- "https://www.scimagojr.com/journalrank.php"
+url <- "https://www.scimagojr.com/journalrank.php?area=1700"
 page <- read_html(url)
 
 # Menyesuaikan selector XPath atau CSS sesuai struktur halaman web yang dituju

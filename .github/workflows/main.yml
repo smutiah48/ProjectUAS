@@ -1,4 +1,4 @@
-name: scrape_kai
+name: scraping_scimago
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  kai-scrape:
+  scimago-scrape:
     runs-on: macOS-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
@@ -24,4 +24,4 @@ jobs:
         install.packages("mongolite")
       shell: Rscript {0} 
     - name: Scrape Data kai
-      run: Rscript ScrappingKai.R
+      run: Rscript scraping_scimago.R

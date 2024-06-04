@@ -1,4 +1,4 @@
-name: scraping_scimago
+name: scrape_scimago
 
 on:
   schedule:
@@ -24,4 +24,4 @@ jobs:
         install.packages("mongolite")
       shell: Rscript {0} 
     - name: Scrape Data scimago
-      run: Rscript scraping_scimago.R
+      run: Rscript scrape_scimago.R

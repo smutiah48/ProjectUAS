@@ -23,5 +23,5 @@ jobs:
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
       shell: Rscript {0} 
-    - name: Scrape Data kai
+    - name: Scrape Data scimago
       run: Rscript scraping_scimago.R
